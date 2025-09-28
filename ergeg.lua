@@ -18,7 +18,7 @@ local Window = Library:CreateWindow({
     Transparent = false,
     Size = UDim2.fromOffset(500, 350),
     HasOutline = false,
-    ScrollBarEnabled = true
+    ScrollBarEnabled = false
 })
 
 Window:EditOpenButton({
